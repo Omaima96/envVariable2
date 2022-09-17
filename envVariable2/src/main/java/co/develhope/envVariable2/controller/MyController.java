@@ -20,9 +20,5 @@ public String getWelcomeMsg(){
        return environment.getProperty("myCustomEnv.welcomeMsg");
     }
 
-    @GetMapping("/other")
-    public String getAnotherWelcomeMsg() {
-        return welcomeMsg;
-    }
 
  }
